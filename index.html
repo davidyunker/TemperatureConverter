@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<label for="temperature">Temperature</label>
+<input type="text" id="temperature" name="temperature">
+
+<button name="button" id="clear">Clear field</button><br>
+
+
+<label for="celsius" id="celsius">Celsius</label>
+<input type="radio" id="celsius" name="temperature">
+
+<label for="fahrenheit" id="fahrenheit">Fahrenheit</label>
+<input type="radio" id="fahrenheit" name="temperature">
+
+<button name="button" id="converter">Convert temperature</button><br>
+
+
+<label for="converted">Converted temperature</label>
+<p id="fillMe">Converted temperature goes here </p>
+
+
+
+<script src="converter.js"</script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <header>
+    <h1>Temperature Converter</h1>
+  </header>
+  <div id="form-main">
+    <form method="get" id="currentTemp">
+      <label for="temp">How's the temperature?
+        <input type="text" id="temp"></input>
+      </label>
+      <label>Fahrenheit or Celsius?
+        <input type="radio" id="fahrenheit" name="temperature" value="fahrenheit">Fahrenheit</input>
+        <input type="radio" id="celsius" name="temperature" value="celsius">Celsius</input>
+      </label>
+      <input type="submit" value="Convert!" id="convertButton"></button>
+      <input type="reset" value="Start Over" id="resetButton"></button>
+    </form>
+    <div id="convertedTemp"></div>
+  </div>
+  <script src="converter.js" type="text/javascript"></script>
+</body>
+</html>
